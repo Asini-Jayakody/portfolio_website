@@ -12,7 +12,7 @@ const firebaseConfig = {
   appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID,
   measurementId: process.env.NEXT_PUBLIC_FIREBASE_MEASUERMENT_ID
 
-//   apiKey: "AIzaSyBJUFg-WhzVV-8jRNpgsiGqysKlnhxaTM0",
+//   apiKey: "",
 //   authDomain: "portfolio-4e474.firebaseapp.com",
 //   projectId: "portfolio-4e474",
 //   storageBucket: "portfolio-4e474.firebasestorage.app",
