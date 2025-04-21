@@ -18,7 +18,7 @@ export default function MenuOveralay({items}) {
 
   return (
 
-        <div className='fixed left-0 z-50  backdrop-blur-lg flex flex-col justify-between h-[calc(100vh-64px)] px-2 pt-4 pb-4 text-xl'>
+        <div className='fixed left-0 z-[9999]  backdrop-blur-lg flex flex-col justify-between h-[calc(100vh-64px)] px-2 pt-4 pb-4 text-xl'>
             <ul className='flex flex-col gap-2 flex-grow px-20'>
                 {items.map((item,index)=>(
                     <li key={index}>

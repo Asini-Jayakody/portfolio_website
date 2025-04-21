@@ -25,8 +25,8 @@ export default function Dashbord() {
   if (loading) return <div>Loading...</div>;
 
   return (
-    <div className='bg-blue-900'>
-      <h1>Dashbord</h1>
+    <div className="h-[calc(100vh-64px)] w-full bg-[url('/images/bg1.jpg')] bg-cover bg-center bg-no-repeat flex items-center justify-center">
+      <h1 className='font-semibold text-5xl text-sky-400'>Welcome Asini!</h1>
     </div>
   )
 }

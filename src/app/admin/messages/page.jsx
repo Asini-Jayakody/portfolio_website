@@ -84,7 +84,7 @@ export default function Messages() {
             </div>
           </div>
 
-          <div className="flex flex-col w-full h-full overflow-scroll bg-gray-800/70 border border-gray-700 shadow rounded-lg backdrop-blur-sm bg-clip-border">
+          <div className=" flex flex-col w-full h-full overflow-scroll bg-gray-800/70 border border-gray-700 shadow rounded-lg backdrop-blur-sm bg-clip-border">
           {/* <div className="overflow-x-auto bg-gray-800/70 border border-gray-700 shadow rounded-lg backdrop-blur-sm"> */}
             <table className="min-w-full text-sm text-left text-gray-100">
               <thead className="text-xs uppercase bg-gray-800/90 text-gray-300 border-b border-gray-700">
